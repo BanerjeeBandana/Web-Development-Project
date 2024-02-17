@@ -1,0 +1,213 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bandana Banerjee's Portfolio</title>
+    <link rel="stylesheet" href="css\style.css">
+</head>
+<body>
+    <!-- <h1>Bandana Banerjee</h1> -->
+    <nav id="navbar">
+        <div id="logo">
+            <img src="img\logo.jpg" alt="">
+        </div>
+        <ul>
+            <li class="item"><a href="#about">About</a></li>
+            <li class="item"><a href="#project">Projects</a></li>
+            <li class="item"><a href="#testimonial">Testimonials</a></li>
+            <li class="item"><a href="#contact">Contact</a></li>
+            <li class="item"><a href="#socialmedia">Social Media Handle</a></li>
+            <li class="item"><a href="#faq">FAQ</a></li>
+        </ul>
+    </nav>
+
+    
+    <div class="about">
+        <div class="about-img-holder">
+            <img src="img\My Pic.png" alt="Bandana">
+        </div>
+        <div class="about-caption">
+            <p class="about-subtitle">Who Am I?</p>
+            <h2 class="about-title">About Me</h2>
+            <p>"Hello, I'm Bandana Banerjee, a passionate and detail-oriented individual eager to embark on a rewarding journey in the IT industry. I hold a B.Tech degree with a focus on Electronics and communication Engineering. My journey into technology began with a fascination for latest trending technologies, where I honed my skills in C++,Python,HTML,SQL etc." 
+
+            </p>             
+            <p>I am committed to continuous learning and staying updated with the latest industry trends. My problem-solving mindset, coupled with strong analytical skills, positions me to contribute effectively to any team. I am excited about the prospect of applying my knowledge in real-world scenarios, collaborating with industry professionals, and making a meaningful impact.
+                
+            Let's connect and explore opportunities to work together!
+            </p>
+            <button class="btn-rounded btn btn-outline-primary mt-4">Download CV</button>
+        </div>
+    </div>
+    
+
+    <section class="section" id="service">
+        <div class="container text-center">
+            <p class="service-subtitle">What I Do?</p>
+            <h2 class="service-title">Service</h2>
+            <div id="services">
+                <div class="box">
+                    <img src="img/1.jpg" alt="">
+                    <h2 class="h-secondary center">Food Catering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi labore, asperiores maiores repellendus placeat fugiat! Eum alias et illo id vel tenetur voluptatibus maiores quae dolorum, doloribus aliquid maxime esse assumenda consectetur quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, sit. Dolor, asperiores sint at voluptatibus dicta nisi beatae voluptate autem culpa quibusdam ex.</p>
+                </div>
+                <div class="box">
+                    <img src="img/2.jpg" alt="">
+                    <h2 class="h-secondary center">Bulk Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi labore, asperiores maiores repellendus placeat fugiat! Eum alias et illo id vel tenetur voluptatibus maiores quae dolorum, doloribus aliquid maxime esse assumenda consectetur quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, sit. Dolor, asperiores sint at voluptatibus dicta nisi beatae voluptate autem culpa quibusdam ex.</p>
+                </div>
+                <div class="box">
+                    <img src="img/3.jpg" alt="">
+                    <h2 class="h-secondary center">Food Ordering</h2>
+                    <p class="center">Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus nisi labore, asperiores maiores repellendus placeat fugiat! Eum alias et illo id vel tenetur voluptatibus maiores quae dolorum, doloribus aliquid maxime esse assumenda consectetur quas. Lorem ipsum dolor, sit amet consectetur adipisicing elit. Dicta, sit. Dolor, asperiores sint at voluptatibus dicta nisi beatae voluptate autem culpa quibusdam ex.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="section" id="portfolio">
+        <div class="container text-center">
+            <p class="portfolio-subtitle">What I Did?</p>
+            <h2 class="portfolio-title">Portfolio</h2>
+            <div id="portfolios">
+                <div class="box">
+                    <h2 class="portfolio-card-caption">Web Development</h2>
+                    <img src="img\web development.png" alt="">
+                    <p class="portfolio-center">Passionate about crafting engaging web experiences, I specialize in front-end and back-end development. Proficient in modern frameworks and tools, I bring creativity and functionality to every project, ensuring seamless user interactions and visually appealing designs.</p>
+                </div>
+                <div class="box">
+                    <h3 class="portfolio-card-caption">Programming Languages</h2> 
+                    <img src="img\programming languages.jpg" alt="">
+                    <p class="portfolio-center">A versatile programmer fluent in languages such as Python, JavaScript, and Java. From building scalable applications to automating complex tasks, my expertise spans a diverse range of programming languages, allowing me to tackle varied challenges with efficiency and precision.</p>
+                </div>
+                <div class="box">
+                    <h4 class="portfolio-card-caption">Database</h2>
+                    <img src="img\database.jpg" alt="">
+                    <p class="portfolio-center">Database aficionado skilled in designing, implementing, and optimizing database solutions. From SQL to NoSQL, I excel in managing data efficiently, ensuring robust and scalable structures. My expertise lies in crafting databases that empower applications with speed, reliability, and seamless data management.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <section class="project" id="projects">
+        <div class="container text-center">
+            <p class="project-subtitle">Bringing Ideas to Life in Code</p>
+            <h1 class="project-title">Projects</h1>
+            <div id="projects">
+                <div class="box" onclick="redirectToProject('https://github.com/BanerjeeBandana/College-Project/blob/main/FINAL%20ULTIMATE.pdf')">
+                    <h2 class="projects-secondary">Digital Image Processing</h2>
+                    <img src="img\image processing.png" alt="">
+                    <p class="projects-center">Applied Digital Image Processing projects, leveraging algorithms and tools to enhance, manipulate, and analyze visual content for diverse applications.</p>
+                </div>
+                <script>
+                    function redirectToProject(projectUrl) {
+                        window.location.href = projectUrl;
+                    }
+                </script>
+
+                <div class="box" onclick="redirectToProject('https://github.com/BanerjeeBandana/Data_Analysis_Project/blob/main/Data%20Analysis%20on%20Bitcoin%20and%20Cryptocurrency%20Data.ipynb')">
+                    <h2 class="projects-secondarytwo">Data Analysis</h2>
+                    <img src="img\data analysis.jpg" alt="">
+                    <p class="projects-center">Data-driven decision-making showcased through impactful projects, employing statistical techniques, machine learning, and visualization tools for actionable insights.</p>
+                </div>
+                <script>
+                    function redirectToProject(projectUrl1) {
+                        window.location.href = projectUrl1;
+                    }
+                </script>
+
+                <div class="box">
+                    <h2 class="projects-secondarythree">Web Development</h2>
+                    <img src="img\web dev project.png" alt="">
+                    <p class="projects-center">Crafting dynamic and responsive web solutions with proficiency in front-end and back-end technologies, ensuring seamless user experiences and efficient functionality.</p>
+                </div>
+                <div class="box">
+                    <h2 class="projects-secondaryfour">Python</h2>
+                    <img src="img\python.png" alt="">
+                    <p class="projects-center">Python-powered projects demonstrating versatility and efficiency across domains, from automation scripts and data analysis to web development and machine learning applications.</p>
+                </div>
+                <div class="box">
+                    <h2 class="projects-secondaryfive">SQL</h2>
+                    <img src="img\sql.png" alt="">
+                    <p class="projects-center">Proficient in SQL database management, showcasing expertise in designing, querying, and optimizing databases for effective data storage, retrieval, and management.</p>
+                </div>
+                <div class="box">
+                    <h2 class="projects-secondaryfour">C++</h2>
+                    <img src="img\c++.png" alt="">
+                    <p class="projects-center">C++ projects showcasing robust software development skills, from algorithmic problem-solving to building scalable applications, highlighting efficiency and performance optimization.</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section class="testimonial" id="testimonials">
+        <div class="container text-center">
+            <p class="testimonial-subtitle">Building Success Together: Testimonials</p>
+            <h2 class="testimonial-title">Testimonial</h2>
+                <div id="testimonials">
+                    <div class="box">
+                        <h2 class="testimonial-card-caption">Akash Adak</h2>
+                        <!-- <img src="img\web development.png" alt=""> -->
+                        <p class="center">The website is a testament to Bandana Banerjee's exceptional work! Through her skillful approach and attention to detail, she was able to transform her vision into a stunning reality. Her skill in web development is truly impressive. Thanks to her communication and problem-solving abilities, the project was a seamless journey. Bandana is my top choice for anyone seeking a talented and reliable web developer.</p>
+                    </div>
+                    <div class="box">
+                        <h2 class="testimonial-card-caption">Krishnendu Bose</h2> 
+                        <!-- <img src="img\programming languages.jpg" alt=""> -->
+                        <p class="center">Bandana exhibited advanced Python skills in executing a comprehensive project that involved car number plates using image processing and insightful data analysis on Bitcoin. Her ability to seamlessly integrate diverse areas showcases a commendable level of expertise.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+        
+        
+        <section class="contact" id="contact">
+            <p class="contact-subtitle">Open for Opportunities - Reach Out and Say Hello!</p>
+            <h2 class="contact-title">Contact Me</h2>
+            <div id="contact-box">
+                <form action="">
+                    <div class="form-group">
+                        <label for="name">Name: </label>
+                        <input type="text" name="name" id="name" placeholder="Your name">
+                    </div>
+                    <div class="form-group"> 
+                        <label for="email">Email: </label>
+                        <input type="email" name="email" id="email" placeholder="Enter Email">
+                    </div>
+                    <div class="form-group">
+                        <label for="name">Write Something: </label> 
+                        <textarea id="message" name="message" cols="30" placeholder="Write Something" rows="4" required></textarea>
+                        <!--<input type="text" name="message" id="text" placeholder="Write Something" cols="30" rows="10">
+                        <textarea name="text" id="message" cols="30" rows="10" placeholder="Write Something"></textarea> -->
+                        <button class="btn-submit">Send Message</button>
+                    </div>
+                </form>
+            </div>
+        </section>
+
+    
+    <div class="social-media-tab">
+        <a href="https://www.linkedin.com/in/bandana-banerjee-4a320b240/" target="_blank">
+            <img src="img\linkedin.jpg" alt="LinkedIn">
+        </a>
+        <a href="https://github.com/BanerjeeBandana" target="_blank">
+            <img src="img\github.jpg" alt="GitHub">
+        </a>
+            <a href="https://twitter.com/BanerjeeBandana" target="_blank">
+            <img src="img\twitter.jpg" alt="Twitter">
+        </a>
+        <a href="https://www.facebook.com/bandana.banerjee.7927" target="_blank">
+            <img src="img\facebook.jpg" alt="Facebook">
+        </a>
+        <a href="https://www.instagram.com/bibha_banerjee20/" target="_blank">
+            <img src="img\instagram.png" alt="Instagram">
+        </a>
+        <a href="https://in.pinterest.com/banerjeebandana/" target="_blank">
+            <img src="img\pinterest.jpg" alt="Pinterest">
+        </a>
+    </div>
+
+</body>
+</html>
